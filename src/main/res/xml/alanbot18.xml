@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<Robot type="FirstInspires-FTC">
+    <LynxUsbDevice name="Expansion Hub Portal 1" serialNumber="DQ1NBQPD" parentModuleAddress="1">
+        <LynxModule name="Expansion Hub 1" port="1">
+            <NeveRest20Gearmotor name="relicArmLift" port="0" />
+            <NeveRest40Gearmotor name="glyphArm" port="1" />
+            <NeveRest20Gearmotor name="relicArmExtends" port="2" />
+            <Servo name="servoRelic" port="0" />
+            <Servo name="servoColor" port="1" />
+            <DigitalDevice name="touchLiftTop" port="1" />
+            <DigitalDevice name="touchLiftHome" port="5" />
+            <DigitalDevice name="digitalTouchTest" port="7" />
+            <LynxEmbeddedIMU name="imu 1" port="0" bus="0" />
+            <ColorSensor name="colorSensor" port="0" bus="1" />
+        </LynxModule>
+        <LynxModule name="Expansion Hub 2" port="2">
+            <NeveRest40Gearmotor name="BRight" port="0" />
+            <NeveRest40Gearmotor name="FRight" port="1" />
+            <NeveRest40Gearmotor name="FLeft" port="2" />
+            <NeveRest40Gearmotor name="BLeft" port="3" />
+            <Servo name="servoGlyphBL" port="0" />
+            <Servo name="servoGlyphTL" port="1" />
+            <Servo name="servoGlyphTR" port="2" />
+            <Servo name="servoGlyphBR" port="3" />
+            <DigitalDevice name="touchLiftBottom" port="1" />
+            <DigitalDevice name="touchExtendsBack" port="3" />
+            <LynxEmbeddedIMU name="imu" port="0" bus="0" />
+            <ColorSensor name="colorSensor2" port="0" bus="1" />
+        </LynxModule>
+    </LynxUsbDevice>
+</Robot>

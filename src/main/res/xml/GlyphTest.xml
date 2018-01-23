@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<Robot type="FirstInspires-FTC">
+    <ServoController name="Servo Controller 1" serialNumber="AI02QSKK">
+        <Servo name="servoGlyphBL" port="0" />
+        <Servo name="servoGlyphTL" port="1" />
+        <Servo name="servoGlyphTR" port="2" />
+        <Servo name="servoGlyphBR" port="3" />
+    </ServoController>
+</Robot>
